@@ -28,6 +28,11 @@ cohort_data AS (
 SELECT
   cohort_month,
   month_number,
-  active_customers
+  active_customers,
+  ROUND(
+    active_customers::decimal /
+    FIRST_VALUE(active_customers) OVER (PARTITION BY cohort_month ORDER BY month_number)
+    * 100, 1
+  ) AS retention_pct
 FROM cohort_data
 ORDER BY cohort_month, month_number;
