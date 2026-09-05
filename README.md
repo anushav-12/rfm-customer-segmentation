@@ -15,15 +15,15 @@ Which customers drive the most revenue, how well are we retaining customers over
 
 ### 1. RFM Overview
 Customer count and revenue contribution by segment, with a segment slicer.
-![RFM Overview](screenshots/01_rfm_overview.png)
+![RFM Overview](screenshots/01_rfm_overview.PNG)
 
 ### 2. Cohort Retention
 Month-by-month retention percentage per acquisition cohort.
-![Cohort Retention](screenshots/02_cohort_retention.png)
+![Cohort Retention](screenshots/02_cohort_retention.PNG)
 
 ### 3. Churn Risk
 Customers flagged "At Risk" (low recency score) broken down by RFM segment.
-![Churn Risk](screenshots/03_churn_risk.png)
+![Churn Risk](screenshots/03_churn_risk.PNG)
 
 ## Key Findings
 - **"At Risk" is both the largest segment by customer count and the top revenue contributor** — the majority of current revenue is concentrated in a segment showing clear churn signals, not in "safe" segments like Champions or Loyal Customers.
